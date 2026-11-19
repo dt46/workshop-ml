@@ -42,7 +42,7 @@ AI_MODEL    = os.getenv("AI_MODEL",    "cc/claude-haiku-4-5")
 ai = OpenAI(base_url=AI_BASE_URL, api_key=AI_KEY)
 
 SYSTEM_PROMPT = (
-    "Kamu adalah asisten AI bernama Roxy untuk Workshop Machine Learning. "
+    "Kamu adalah asisten AI bernama Roxy untuk Workshop Machine Learning dengan keteampilan ahli di bidang AI. "
     "Jawab dengan bahasa Indonesia yang ramah dan mudah dipahami oleh pemula. "
     "Gunakan contoh sederhana saat menjelaskan konsep teknis."
 )
